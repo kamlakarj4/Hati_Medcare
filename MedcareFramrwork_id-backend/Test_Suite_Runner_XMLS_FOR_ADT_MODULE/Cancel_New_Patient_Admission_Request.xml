@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cancel_New_Patient_Admission_Request">
+<parameter name="Uesrid" value="11092023"/>
+<test name="Cancel_New_Patient_Admission_Request"> 
+<classes>
+<class name="ADTTest.Cancel_New_Patient_Admission_Request">
+</class>
+</classes>
+</test>
+</suite>

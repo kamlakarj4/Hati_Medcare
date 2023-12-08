@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MEDCARE_OPD_MODULE_01_TEST_SUITE">
+
+ <suite-files>
+	 
+	    
+                     
+         <suite-file path="Hold_Appointment.xml"/>
+	     
+	     <suite-file path="Un_Hold_Appointment.xml"/>
+	     
+         <suite-file path="Book_Existing_Appointment_against_Department.xml"/>
+
+         <suite-file path="Book_Existing_Appointment_against_doctor.xml"/>
+        
+         <suite-file path="Book_new_appointment_against_Department.xml"/>
+        
+         <suite-file path="Book_New_Appointment_against_Doctor.xml"/>
+         
+         <suite-file path="Cancel_Existing_Appointment_against_Department.xml"/>
+         
+         <suite-file path="Cancel_Existing_Appointment_against_doctor.xml"/>
+           
+         <suite-file path="Cancel_new_Appointment_against_Department.xml"/>
+             
+         <suite-file path="Cancel_New_Appointment_against_doctor.xml"/>
+         
+         <suite-file path="Reschedule_Existing_Appointment_against_Department.xml"/>
+                                     
+         <suite-file path="Reschedule_Existing_Appointment_against_Doctor.xml"/>
+                                      
+         <suite-file path="Reschedule_New_Appointment_against_Department.xml"/>
+                                       
+         <suite-file path="Reschedule_New_Appointment_against_doctor.xml"/>
+		
+         <suite-file path="QuickRegtestng.xml"/>
+         
+         <suite-file path="Registeration.xml"/>
+         
+         <suite-file path="Appointment_List_Advanced_Search_By_MRN.xml"/>
+        
+         <suite-file path="Appointment_List_Advanced_Search_By_Name.xml"/>
+               
+         <suite-file path="EncounterList_Advanced_Search_By_MRN.xml"/>
+                 
+         <suite-file path="EncounterList_Advanced_Search_By_Name.xml"/>
+
+        
+        <!--        <suite-file path="testng-seleniumgrid-juiceshop.xml"/>-->
+
+    </suite-files>
+    
+
+</suite> 

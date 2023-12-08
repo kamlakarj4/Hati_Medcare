@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New_Registration_Encounter_creation_OP_Bill_Search_patient_Add_charges_Final_Bill_Partial_Settlement]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="10931994"/>
+  <test thread-count="5" name="New_Registration_Encounter_creation_OP_Bill_Search_patient_Add_charges_Final_Bill_Partial_Settlement(failed)">
+    <parameter name="QuickAddNotesPar" value="Patient has Blood suger"/>
+    <parameter name="QuickPatientNotesPar" value="Feeling well"/>
+    <parameter name="QuickEncounterNotesPar" value="Patient need wheel chair"/>
+    <parameter name="ReceivedFromPar" value="Admin"/>
+    <parameter name="ServiceNamePar" value="CT Brain"/>
+    <parameter name="RemarksPar" value="Testing"/>
+    <parameter name="QuickEncounterRemarksPar" value="Patient has favour not felling well"/>
+    <parameter name="QuickReferralRemarksPar" value="Overall patient condition is fine"/>
+    <parameter name="QuickExparyDatePar" value="12/10/2024"/>
+    <parameter name="IdentificationNoPar" value="8980909"/>
+    <parameter name="QuickMobileNumberPar" value="8149596832"/>
+    <parameter name="QuickPrimaryIdNumberPar" value="UJ888998"/>
+    <parameter name="QuickDateOfBirthPar" value="12/02/1991"/>
+    <parameter name="ServiceName2Par" value="MRI Brain"/>
+    <parameter name="QuickFullNamePar" value="Janet"/>
+    <classes>
+      <class name="BillingTest.New_Registration_Encounter_creation_OP_Bill_Search_patient_Add_charges_Final_Bill_Partial_Settlement">
+        <methods>
+          <include name="TC_02_New_Registration_Encounter_creation_OP_Bill_Search_patient_Add_charges_Final_Bill_Partial_Settlement"/>
+          <include name="afterTest"/>
+          <include name="startBrowser"/>
+          <include name="TC_01_Verify_Login" invocation-numbers="0"/>
+          <include name="FailedScreenShot"/>
+        </methods>
+      </class> <!-- BillingTest.New_Registration_Encounter_creation_OP_Bill_Search_patient_Add_charges_Final_Bill_Partial_Settlement -->
+    </classes>
+  </test> <!-- New_Registration_Encounter_creation_OP_Bill_Search_patient_Add_charges_Final_Bill_Partial_Settlement(failed) -->
+</suite> <!-- Failed suite [New_Registration_Encounter_creation_OP_Bill_Search_patient_Add_charges_Final_Bill_Partial_Settlement] -->

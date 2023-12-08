@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="OPD_Reg_ID_Passport_With_VIP_Patient">
+
+<parameter name="Uesrid" value="11092023"/>
+<test name="OPD_Reg_ID_Passport_With_VIP_Patient"> 	
+	
+<parameter name="PrimaryIdNumber12" value="11"/>
+<parameter name="ExparyDatePar" value="15/12/2024"/>
+<parameter name="SecondaryIdNumber12" value="203569875"/>
+<parameter name="SecondaryExparyDatePar" value="15/12/2024"/>
+<!-- <parameter name="FullNamePar" value="Shirikant"/>-->
+<parameter name="DateOfBirthPar" value="15/02/1990"/>
+<parameter name="MotherNamePar" value="Shejal"/>
+<parameter name="PatientNotes" value="Patient has Blood suger"/>
+<parameter name="ResidentialAddressPar" value="Pune"/>
+<parameter name="PostCodePar" value="52369874"/>
+
+<parameter name="MobileNumberPar" value="7569206892"/>
+<parameter name="Emailpar" value="hati@intel.com"/>
+<parameter name="PersonalFaxpar" value="523641"/>
+<parameter name="WorkFaxpar" value="2036541"/>
+<parameter name="WorkContactNopar" value="8156896532"/>
+<parameter name="HomeContactNopar" value="7599633265"/>
+
+<parameter name="EmploymentNoPar" value="2036"/>
+<parameter name="WorkFromPar" value="15/02/2023"/>
+<parameter name="ContactNumberPar" value="8156896532"/>
+<parameter name="ResAddPar" value="Mumbai"/>
+<parameter name="PostCodePar12" value="75996"/>
+
+<parameter name="Healthtouristcodepar" value="2365"/>
+<parameter name="AgentIdNoPar" value="8632"/>
+<parameter name="AgentNamePar" value="Rakesh"/>
+<parameter name="StartDatePar" value="01/11/2023"/>
+<parameter name="EndDatePar" value="31/12/2023"/>
+<parameter name="ContactNoPar4" value="7145698322"/>
+<parameter name="EmailIdPar4" value="medcare@hatiintl.com"/>
+<parameter name="Address23Par" value="Pune"/>
+<parameter name="PostCodePar34" value="52369"/>
+
+
+
+<parameter name="EncounterRemarksPar" value="Patient has favour"/>
+<parameter name="AddNotesPar" value="Patients not feeling well"/>
+
+<parameter name="NamePar" value="Sayyad"/>
+<parameter name="IdentificationNOPar" value="20236541"/>
+<parameter name="PhoneNoPar" value="9975223366"/>
+<parameter name="AddressPar" value="Pune"/>
+<parameter name="PostcodeParAdetailsPar" value="Pune"/>	   
+<classes>
+<class name="OPDTest.OPD_Reg_ID_Passport_With_VIP_Patient">
+</class>
+</classes>
+</test>
+</suite>

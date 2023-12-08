@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MEDCARE_ADT_MODULE_02_TEST_SUITE">
+
+ <suite-files>
+	                 
+         <suite-file path="Admission_With_VIP_Patient_NewIC.xml"/>
+         
+         <suite-file path="Admission_With_VIP_Patient_OldIC.xml"/>
+         
+         <suite-file path="Admission_With_VIP_Patient_Passport.xml"/>
+         
+         <suite-file path="AdmissionClinicalDischarge.xml"/>
+         
+         <suite-file path="AdmissionClinicalDischargeCancel.xml"/>
+         
+         <suite-file path="AdmissionRequest_For_NEW_IC.xml"/>
+         
+         <suite-file path="AdmissionRequest_For_OLD_IC.xml"/>
+         
+         <suite-file path="AdmissionRequest_Request_For_Registered_With_NEW_IC.xml"/>
+         
+         <suite-file path="AdmissionRequest_Request_For_Registered_With_OLD_IC.xml"/>
+         
+         <suite-file path="AdmissionRequest_Request_For_Registered_With_Passport.xml"/>
+         
+         <suite-file path="ADTAdmissionForm_Convert_Charges_OP_To_IP.xml"/>
+         
+         <suite-file path="ADTAdmissionFOrm_List_Advanced_Search_By_MRN.xml"/>
+         
+         <suite-file path="ADTAdmissionFOrm_List_Advanced_Search_By_Name.xml"/>
+         
+         <suite-file path="ADTAdmissionForm_OP_TO_IP_NO_Convert_Charges.xml"/>
+         
+         <suite-file path="ADTDashboard_Admission_List_Advanced_Search_By_MRN.xml"/>
+         
+         <suite-file path="ADTDashboard_Admission_List_Advanced_Search_By_Name.xml"/>
+         
+         <suite-file path="Bed_View_By_Bed_Category.xml"/>
+         
+         <suite-file path="Bed_View_By_Status.xml"/>
+         
+         <suite-file path="Bed_View_By_Ward.xml"/>
+         
+         <suite-file path="Bed_View_Filter_by_Department.xml"/>
+         
+         <suite-file path="Bed_View_Filter_by_Doctor.xml"/>
+         
+         <suite-file path="Bed_View_Filter_by_Floor.xml"/>
+         
+         <suite-file path="BedBlockingTestNG.xml"/>
+         
+         <suite-file path="BedBlockingWith_Extended_Blocked_date.xml"/>
+         
+         <suite-file path="Cancel_New_Patient_Admission_Request.xml"/>
+         
+         <suite-file path="CancelAdmissionTestNG.xml"/>
+         
+         <suite-file path="ExistingAdmissionRequest_Advanced_Search_By_MRN.xml"/>
+         
+         <suite-file path="ExistingAdmissionRequest_Advanced_Search_By_Name.xml"/>
+         
+         <suite-file path="Modify_Existing_Patient_Admission_request.xml"/>
+         
+         <suite-file path="Multiple_BedBlockingTestNG.xml"/>
+         
+        
+        
+                      
+        
+        <!--        <suite-file path="testng-seleniumgrid-juiceshop.xml"/>-->
+        
+        
+           
+
+    </suite-files>
+    
+
+</suite> 

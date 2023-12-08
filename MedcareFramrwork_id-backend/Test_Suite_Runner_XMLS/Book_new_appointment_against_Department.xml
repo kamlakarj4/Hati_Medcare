@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Book_New_AppointMent_against_Department">
+
+<parameter name="Uesrid" value="10021234"/>
+
+<parameter name="AppointmenttypeA" value="Department"/>
+
+<parameter name="consultationA" value="Clinical Consultation"/>
+
+<parameter name="specialityA" value="Cardiology"/>
+
+<parameter name="passportA" value="Passport"/>
+
+<parameter name="PrimeryIDNumberA" value="1234"/>
+
+<parameter name="ExpiryDateA" value="18/09/2024"/>
+
+<parameter name="TitleoptA" value="Tan Sri Datuk"/>
+
+
+<!-- Update FullNmaeA -->
+
+<!--<parameter name="FullNmaeA" value="ang sans su ki"/> -->
+
+<parameter name="GendesendA" value="MALE"/>
+
+<parameter name="dateOfBirthA" value="18/09/1993"/>
+
+<parameter name="addressA" value="asd"/>
+
+<parameter name="countryPrimaryA" value="Malaysia"/>
+
+<parameter name="stateA" value="Kedah"/>
+
+<parameter name="CityA" value="Kulim"/>
+
+<parameter name="postA" value="5343453"/>
+
+<parameter name="CountryCodeA" value="+355"/>
+
+<parameter name="AreaA" value="Sample"/>
+
+<parameter name="mobileNumberA" value="1234567897"/>
+
+<parameter name="workcontactnoA" value="123-123333333"/>
+
+<parameter name="homecontactnoA" value="123-123333333"/>
+
+<parameter name="emailA" value="medcare@gaml.com"/>
+
+
+
+
+	
+<parameter name="Uesrid" value="10021234"/>
+<parameter name="EncounterRemarksPar" value="good"/>
+<parameter name="AddNotesPar" value="good"/>
+<parameter name="NamePar" value="test" />
+<parameter name="IdentificationNOPar" value="11111"/>
+<parameter name="PhoneNoPar" value="21111111"/>
+<parameter name="AddressPar" value="malasiya"/>
+<parameter name="PostcodeParAdetailsPar" value="111111"/>
+
+<!-- Update PatientNameA same as FullNmaeA -->
+<!-- <parameter name="PatientNameA" value="ang sans su ki"/>-->
+
+<parameter name="issuedCountryPrimaryA" value="Malaysia"/>
+<parameter name="secondaryIdA" value="Police"/>
+<parameter name="secondaryNumberA" value="1111111"/>
+<parameter name="genderrA" value="MALE"/>
+<parameter name="martialA" value="Single"/>
+<parameter name="religionA" value="Buddhism"/>
+<parameter name="patientCategoryA" value="Public"/>
+<parameter name="preferredLanguageA" value="English"/>
+<parameter name="nationA" value="Malaysia"/>
+<parameter name="nation1A" value="Malaysia"/>
+<parameter name="motherNameA" value="selena"/>
+<parameter name="educationA" value="BA"/>
+<parameter name="occupationA" value="Legal"/>
+<parameter name="raceA" value="Chinese"/>
+<parameter name="ethnicA" value="Chinese"/>
+<parameter name="birthplaceA" value="Buddhism"/>
+<parameter name="bloodGroupA" value="A RhD negative (A-)"/>
+<parameter name="sourceTypeA" value="Radio"/>
+<parameter name="employmentStatusA" value="Employed"/>
+<parameter name="patientNotesA" value="good"/>
+<parameter name="contactRelationA" value="Father"/>
+<parameter name="CorrespondenceA" value="aaaaaa"/>
+<parameter name="personalFaxA" value="11111111"/>
+<parameter name="workFaxA" value="11111111"/>
+<parameter name="subDistrictSecondaryA" value="Sample"/>
+<parameter name="PostcodeA" value="11111111"/>
+<parameter name="employmentNoB" value="1111111"/>
+<parameter name="workingFromB" value="17/10/2023"/>
+<parameter name="employmentContactNoB" value="111111111"/>
+<parameter name="ResidentialB" value="karim nagar"/>
+<parameter name="Residential1B" value="karim nagar"/>
+<parameter name="employmentCountryB" value="Malaysia"/>
+<parameter name="employmentStateB" value="kedah"/>
+<parameter name="employmentCityB" value="Kulim"/>
+<parameter name="employmentPostCodeB" value="1111111"/>	
+	
+<test name="Test e2e Book_New_AppointMent_against_Department flow">	
+
+<classes>
+
+<class name="OPDTest.Book_New_AppointMent_against_Department">
+
+</class>
+
+</classes>
+
+</test>
+
+</suite>
+

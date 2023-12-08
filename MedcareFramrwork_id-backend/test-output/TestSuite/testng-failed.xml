@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="11092023"/>
+  <test thread-count="5" name="AdvancedSearch(failed)">
+    <parameter name="MRNPar" value="HISCKLTRN231110670"/>
+    <classes>
+      <class name="OPDTest.Advanced_Search_Of_Appointment">
+        <methods>
+          <include name="TC_01_verify_That_User_Is_Able_To_Login_MedcareApplication" invocation-numbers="0"/>
+          <include name="TC_02_Verify_That_User_Can_Search_Appoint_Using_Advanced_Search_By_MRN" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- OPDTest.Advanced_Search_Of_Appointment -->
+    </classes>
+  </test> <!-- AdvancedSearch(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

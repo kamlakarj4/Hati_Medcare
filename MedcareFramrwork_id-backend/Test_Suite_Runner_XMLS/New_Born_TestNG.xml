@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+<parameter name="Uesrid" value="11092023"/>
+<test name="RegistrationTest"> 		
+<parameter name="MRNPar" value="HISCKLMRN231011530"/>
+<parameter name="DeliviryDatePar" value="26/10/2023"/>
+<parameter name="AdmissionTimePar" value="11:30AM"/>
+<parameter name="IfOutSideHosPar" value="No"/>
+<parameter name="IndicatorMarkPar" value="Yes"/>
+<parameter name="WeightPar" value="3"/>
+<parameter name="LengthPar" value="1.5"/>
+<parameter name="HeadCircumferencePar" value="1"/>
+
+<parameter name="CodePar" value="CODEICUCre4455"/>
+<parameter name="DescriptionPar" value="DESCICUCre4455"/>
+<parameter name="BedNoPar" value="BEDICUCre4455"/>
+<classes>
+<class name="ADTTest.NewBornTest">
+</class>
+</classes>
+</test>
+</suite>

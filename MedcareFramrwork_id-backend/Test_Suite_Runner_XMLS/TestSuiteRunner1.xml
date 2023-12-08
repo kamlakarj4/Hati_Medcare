@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MEDCARE_OPD_MODULE_01_TEST_SUITE">
+
+ <suite-files>
+	                 
+         <suite-file path="OPD_Reg_With_NEW_IC_VIP_Pat.xml"/>
+                       
+         <suite-file path="OPD_Reg_With_OLD_IC_VIP_Pat.xml"/>
+                         
+         <suite-file path="OPD_Reg_With_Passport_VIP_Pat.xml"/>
+                           
+         <suite-file path="OPD_Reg_With_Primary_ID_NEW_IC.xml"/>
+                             
+         <suite-file path="OPD_Reg_With_Primary_ID_OLD_IC.xml"/>
+                              
+         <suite-file path="QuickRegtestng_Advanced_Search_By_MRN.xml"/>
+                               
+         <suite-file path="QuickRegtestng_Advanced_Search_By_Name.xml"/>
+                                
+         <suite-file path="QuickRegtestng_With_New_IC.xml"/>
+                                 
+         <suite-file path="QuickRegtestng_With_OLD_IC.xml"/>
+                                                                              
+         <suite-file path="Update.xml"/>
+         
+         <suite-file path="QuickRegtestngWithExisting.xml"/>
+          
+         <suite-file path="QuickRegtestngWithExistingwithArmy.xml"/>
+            
+         <suite-file path="QuickRegtestngWithExistingwithNewIC.xml"/>
+              
+         <suite-file path="QuickRegtestngWithExistingwithPolice.xml"/>
+                
+         <suite-file path="RegistartionWithAadhaar.xml"/>
+                  
+         <suite-file path="RegistartionWithNRIC.xml"/>
+                    
+         <suite-file path="RegistartionWithOldIC.xml"/>
+                      
+         <suite-file path="RegistartionWithPAN.xml"/>
+                        
+         <suite-file path="UpdateSponsorwith2Payer.xml"/>
+         
+         <suite-file path="UpdateSponsorPayerDelete.xml"/>
+         
+         <suite-file path="testngPatientMerge.xml"/>
+        
+        <!--        <suite-file path="testng-seleniumgrid-juiceshop.xml"/>-->
+        
+        
+        <!-- 
+      
+        -->
+        
+
+    </suite-files>
+    
+
+</suite> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Update2ndPayer">
+
+<parameter name="Uesrid" value="10931994"/>
+<test name="test4">
+<parameter name="MRNSearchPar" value="HISCKLMRN231111935"/>
+<parameter name="PolicyNumberPar" value="98797987"/>
+<parameter name="EffectivedatePar" value="15/11/2030"/>
+<parameter name="MRNSearchPar2" value="HISCKLMRN231111935"/>
+<parameter name="PolicyNumberPar2" value="987097098"/>
+<parameter name="EffectivedatePar2" value="15/11/2030"/>
+<classes>
+<class name="OPDTest.Update2ndPayer">
+</class>
+</classes>
+</test>
+</suite>

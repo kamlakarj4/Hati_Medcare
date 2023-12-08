@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Reschedule_Existing_Appointment_against_Department">
+
+	
+<!-- Step 1 :- Quick Registeration -->
+
+<parameter name="Uesrid" value="10021234"/>
+<parameter name="QuickPrimaryIdNumberPar" value="20136542365410"/>
+<parameter name="QuickExparyDatePar" value="12/10/2024"/>
+<!-- <parameter name="QuickFullNamePar" value="RUSRA kolte"/>-->
+<parameter name="QuickDateOfBirthPar" value="12/02/1991"/>
+<parameter name="QuickMobileNumberPar" value="8149596832"/>
+<parameter name="QuickEncounterRemarksPar" value="Patient has favour not felling well"/>
+<parameter name="QuickAddNotesPar" value="Patient has Blood suger"/>
+<parameter name="QuickEncounterNotesPar" value="Patient need wheel chair"/>
+<parameter name="QuickPatientNotesPar" value="Feeling well"/>
+<parameter name="QuickReferralRemarksPar" value="Overall patient condition is fine"/>	
+	
+<!-- Step 2 :- Book Existing appointment-->
+
+<parameter name="AppointmenttypeA" value="Department"/>
+
+<parameter name="consultationA" value="Clinical Consultation"/>
+
+<parameter name="specialityA" value="Cardiology"/>
+
+<!-- <parameter name="PatientNameA" value="QURESHI"/>-->
+
+<parameter name="genderA" value="MALE"/>
+
+<parameter name="EmailA" value="kk@gmail.com"/>
+
+<parameter name="WorkcontctA" value="25453434"/>
+
+<parameter name="HomecontactA" value="111-1257257257"/>
+
+<parameter name="RemarksA" value="good"/>
+
+<!-- Step 3 :- Reschedule appointmet parameter-->
+
+<!-- <parameter name="SearchPatientName" value="Tirmuk"/>-->
+<parameter name="selectgender" value="MALE"/>
+<!-- <parameter name="SearchRescheduledPatientName" value="Tirmuk"/>-->
+
+<test name="Test e2e BookExistingAppointment flow">	
+
+<classes>
+
+<class name="OPDTest.Reschedule_Existing_Appointment_against_Department">
+	
+
+	
+
+	
+
+</class>
+
+</classes>
+
+</test>
+
+</suite>

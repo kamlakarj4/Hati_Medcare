@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OPD_ExistingRegWithAadhaarTest">
+
+<parameter name="Uesrid" value="10931994"/>
+<test name="ExistingReg1"> 
+<parameter name="PrimaryIdNumber12" value="JKLJ989009"/>
+<parameter name="ExparyDatePar" value="01/01/2024"/>
+<parameter name="SecondaryIdNumber12" value="20136547898569"/>
+<parameter name="SecondaryExparyDatePar" value="01/01/2024"/>
+<!-- <parameter name="FullNamePar" value="DCOCK"/>-->
+<parameter name="DateOfBirthPar" value="05/05/1994"/>
+<parameter name="MotherNamePar" value="SHOBHA"/>
+<parameter name="PatientNotes" value="Notes"/>
+<parameter name="ResidentialAddressPar" value="Pune"/>
+<parameter name="PostCodePar" value="987309"/>
+<parameter name="MobileNumberPar" value="98765756546"/>
+<parameter name="Emailpar" value="Patilaksh1994@gmail.com"/>
+<parameter name="PersonalFaxpar" value="756756"/>
+<parameter name="WorkFaxpar" value="456464564"/>
+<parameter name="WorkContactNopar" value="20137898569"/>
+<parameter name="HomeContactNopar" value="2047898569"/>
+<parameter name="EmploymentNoPar" value="27898569"/>
+<parameter name="WorkFromPar" value="10/11/2023s"/>
+<parameter name="ContactNumberPar" value="9678567567"/>
+<parameter name="ResAddPar" value="Pune"/>
+<parameter name="PostCodePar12" value="897987"/>
+
+<parameter name="EncounterRemarksPar" value="Testing"/>
+<parameter name="AddNotesPar" value="jkh"/>
+<parameter name="NamePar" value="PANKHA"/>
+<parameter name="IdentificationNOPar" value="897979"/>
+<parameter name="PhoneNoPar" value="978979087907"/>
+<parameter name="AddressPar" value="Pune"/>
+<parameter name="PostcodeParAdetailsPar" value="038899"/>
+
+<classes>
+<class name="OPDTest.OPD_ExistingRegWithAadhaarTest">
+</class>
+</classes>
+</test>
+</suite>

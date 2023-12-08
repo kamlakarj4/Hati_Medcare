@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTests">
+    <listeners>
+        <listener class-name="your.package.YourCustomListener"/>
+        <!-- Add other listeners as needed -->
+    </listeners>
+
+    <test name="Suite1">
+        <packages>
+            <package name="your.package.tests1"/>
+        </packages>
+    </test>
+
+    <test name="Suite2">
+        <packages>
+            <package name="your.package.tests2"/>
+        </packages>
+    </test>
+
+    <!-- Add more <test> elements for additional XML files -->
+
+</suite>

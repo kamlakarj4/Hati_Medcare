@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PatientMergeTest">
+
+<parameter name="Uesrid" value="10021234"/>
+<test name="Test e2e Patient Merge flow"> 
+ <parameter name="PatientMRNPar" value="HISCKLMRN231011407"/> 
+ <parameter name="PatientMRNPar2" value="HISCKLMRN231011406"/>  
+ <parameter name="RemarksPar" value="Testing"/>
+<classes>
+<class name="OPDTest.PatientMergeTest">
+</class>
+</classes>
+</test>
+</suite>

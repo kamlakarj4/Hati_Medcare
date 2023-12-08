@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Reschedule_New_Appointment_against_Department">
+	
+	
+<!-- Book new appointment-->
+	
+	
+<parameter name="Uesrid" value="10021234"/>
+
+<parameter name="AppointmenttypeAA" value="Department"/>
+
+<parameter name="consultationA" value="Clinical Consultation"/>
+
+<parameter name="specialityA" value="Cardiology"/>
+
+<parameter name="passportA" value="Passport"/>
+
+<parameter name="PrimeryIDNumberA" value="1234"/>
+
+<parameter name="ExpiryDateA" value="18/09/2024"/>
+
+<parameter name="TitleoptA" value="Tan Sri Datuk"/>
+
+
+<!-- Update FullNmaeA -->
+
+<!-- <parameter name="FullNmaeA" value="lama"/>-->
+
+<parameter name="GendesendA" value="MALE"/>
+
+<parameter name="dateOfBirthA" value="18/09/1993"/>
+
+<parameter name="addressA" value="asd"/>
+
+<parameter name="countryPrimaryA" value="Malaysia"/>
+
+<parameter name="stateA" value="Kedah"/>
+
+<parameter name="CityA" value="Kulim"/>
+
+<parameter name="postA" value="5343453"/>
+
+<parameter name="CountryCodeA" value="+355"/>
+
+<parameter name="AreaA" value="Sample"/>
+
+<parameter name="mobileNumberA" value="1234567897"/>
+
+<parameter name="workcontactnoA" value="123-123333333"/>
+
+<parameter name="homecontactnoA" value="123-123333333"/>
+
+<parameter name="emailA" value="medcare@gaml.com"/>
+	
+	
+
+<!-- Update SearchPatientName and SearchRescheduledPatientName same as FullNmaeA -->	
+	
+<parameter name="Uesrid" value="10021234"/>
+<!-- <parameter name="SearchPatientName" value="lama"/>-->
+<parameter name="selectgender" value="MALE"/>
+<!-- <parameter name="SearchRescheduledPatientName" value="lama"/>-->
+<test name="Test e2e Reschedule appointment flow">	
+<classes>
+<class name="OPDTest.Reschedule_New_Appointment_against_Department">
+</class>
+</classes>
+</test>
+</suite>
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Hold_Appointment">
+
+<parameter name="Uesrid" value="10021234"/>
+
+<parameter name="AppointmenttypeA" value="Doctor"/>
+
+<parameter name="consultationA" value="Clinical Consultation"/>
+
+<parameter name="specialityA" value="Cardiology"/>
+
+<test name="Test e2e Hold_Apointment flow">	
+
+<classes>
+
+<class name="OPDTest.Hold_Apointment">
+
+</class>
+
+</classes>
+
+</test>
+
+</suite>
+

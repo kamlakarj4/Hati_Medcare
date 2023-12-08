@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ADTAdmissionFormTest_Convert_Chrges_OP_TO_IP">
+<parameter name="Uesrid" value="11092023"/>
+<test name="test"> 		
+<parameter name="MRNPar" value="HISCKLMRN231212758"/>
+<parameter name="LengthOfStayPar" value="2"/>
+<parameter name="AdmittingDiagPar" value="Admitting Diagnosis testing"/>
+<parameter name="AddNotesPar" value="Require Urgent Oxyzen"/>
+<parameter name="PatientNotesPar" value="Blood require"/>
+<parameter name="AdmissionRemarksPar" value="All Done good"/>
+<parameter name="ReferralRemarksPar" value="Overall good"/>
+<parameter name="NamePar" value="Sandra"/>
+<parameter name="IdentificationNOPar" value="1236540"/>
+<parameter name="PhoneNumberPar" value="9921084463"/>
+<parameter name="AddressPar" value="Pune"/>
+<parameter name="ZipCodePar" value="3265"/>
+<classes>
+<class name="ADTTest.ADTAdmissionFormTest_Convert_Chrges_OP_TO_IP">	
+</class>
+</classes>
+</test>
+</suite>

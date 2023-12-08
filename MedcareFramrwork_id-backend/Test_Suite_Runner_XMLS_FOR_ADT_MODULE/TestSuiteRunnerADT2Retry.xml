@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MEDCARE_ADT_MODULE_02_TEST_SUITE">
+
+ <suite-files>
+	                 
+
+        <suite-file path="CancelAdmissionTestNG.xml"/>
+        <suite-file path="ExistingAdmissionRequest_Advanced_Search_By_MRN.xml"/>
+        <suite-file path="AdmissionClinicalDischarge.xml"/>
+        <suite-file path="AdmissionRequest_Request_For_Registered_With_NEW_IC.xml"/>
+        <suite-file path="AdmissionRequest_Request_For_Registered_With_OLD_IC.xml"/>
+        <suite-file path="Cancel_New_Patient_Admission_Request.xml"/>
+        <suite-file path="ADTAdmissionForm_OP_TO_IP_NO_Convert_Charges.xml"/>
+        <suite-file path="AdmissionRequest_Request_For_Registered_With_Passport.xml"/>
+        <suite-file path="AdmissionClinicalDischargeCancel.xml"/>
+        
+
+        <!--        <suite-file path="testng-seleniumgrid-juiceshop.xml"/>-->
+
+
+    </suite-files>
+    
+
+</suite> 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AdmissionRequestTest_For_OLD_IC">
+<parameter name="Uesrid" value="11092023"/>
+<test name="test3">
+<parameter name="PriNumberPar" value="8498"/>
+<parameter name="PatientNamePar" value="pranali"/>
+<parameter name="DOBPar" value="12/02/1992"/>
+<parameter name="MobilePar" value="9503238070"/>
+<parameter name="EmailPar" value="medcare@hatintl.com"/>
+<parameter name="DOAPar" value="03/11/2023"/>
+<parameter name="LengthPar" value="3"/>
+<parameter name="NotesPar" value="Testing Notes"/>
+<parameter name="RemarksPar" value="Testing Remark"/>
+<parameter name="AddressPar" value="Mumbai"/>
+<parameter name="LengthOfStayPar" value="2"/>
+<parameter name="AdmittingDiagPar" value="Admitting Diagnosis testing"/>
+<parameter name="AddNotesPar" value="Require Urgent Oxyzen"/>
+<parameter name="PatientNotesPar" value="Blood require"/>
+<parameter name="AdmissionRemarksPar" value="All Done good"/>
+<parameter name="BillEstimationPar" value="1234"/>
+<parameter name="ReferralRemarksPar" value="Overall good"/>
+<parameter name="NamePar" value="Sandra"/>
+<parameter name="IdentificationNOPar" value="1236540"/>
+<parameter name="PhoneNumberPar" value="9921084463"/>
+<parameter name="AddressPar" value="Pune"/>
+<parameter name="ZipCodePar" value="799098"/>
+<classes>
+<class name="ADTTest.AdmissionRequestTest_For_OLD_IC">
+</class>
+</classes>
+</test>
+</suite>

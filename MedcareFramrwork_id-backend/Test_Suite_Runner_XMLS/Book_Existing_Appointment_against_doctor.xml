@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Book_Existing_Appointment_against_Doctor">
+	
+
+<!-- Quick registeration -->
+	
+<parameter name="QuickPrimaryIdNumberPar" value="20136542365410"/>
+<parameter name="QuickExparyDatePar" value="12/10/2024"/>
+<parameter name="QuickDateOfBirthPar" value="12/02/1991"/>
+<parameter name="QuickMobileNumberPar" value="8149596832"/>
+<parameter name="QuickEncounterRemarksPar" value="Patient has favour not felling well"/>
+<parameter name="QuickAddNotesPar" value="Patient has Blood suger"/>
+<parameter name="QuickEncounterNotesPar" value="Patient need wheel chair"/>
+<parameter name="QuickPatientNotesPar" value="Feeling well"/>
+<parameter name="QuickReferralRemarksPar" value="Overall patient condition is fine"/>	
+	
+	
+	
+<!-- Book existing appointment-->
+
+<parameter name="Uesrid" value="10021234"/>
+
+<parameter name="AppointmenttypeA" value="Doctor"/>
+
+<parameter name="consultationA" value="Clinical Consultation"/>
+
+<parameter name="specialityA" value="Cardiology"/>
+
+<!-- <parameter name="genderA" value="MALE"/>-->
+
+<parameter name="EmailA" value="kk@gmail.com"/>
+
+<parameter name="WorkcontctA" value="25453434"/>
+
+<parameter name="HomecontactA" value="111-1257257257"/>
+
+<parameter name="RemarksA" value="good"/>
+
+<!-- Encounter details-->
+
+<parameter name="EncounterRemarksPar" value="good"/>
+<parameter name="AddNotesPar" value="good"/>
+<parameter name="NamePar" value="test" />
+<parameter name="IdentificationNOPar" value="11111"/>
+<parameter name="PhoneNoPar" value="21111111"/>
+<parameter name="AddressPar" value="malasiya"/>
+<parameter name="PostcodeParAdetailsPar" value="111111"/>
+
+<test name="Test e2e Book_Existing_Appointment_against_Doctor flow">	
+
+<classes>
+
+<class name="OPDTest.Book_Existing_Appointment_against_Doctor">
+	
+</class>
+
+</classes>
+
+</test>
+
+</suite>

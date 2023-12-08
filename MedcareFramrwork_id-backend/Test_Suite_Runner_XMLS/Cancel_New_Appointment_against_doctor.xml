@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Cancel_new_appointment_against_Doctor">
+
+<parameter name="Uesrid" value="10021234"/>
+
+<parameter name="AppointmenttypeA" value="Doctor"/>
+
+<parameter name="consultationA" value="Clinical Consultation"/>
+
+<parameter name="specialityA" value="Cardiology"/>
+
+<parameter name="passportA" value="Passport"/>
+
+<parameter name="PrimeryIDNumberA" value="1234"/>
+
+<parameter name="ExpiryDateA" value="18/09/2024"/>
+
+<parameter name="TitleoptA" value="Tan Sri Datuk"/>
+
+
+
+<!-- Prividing  fullname  -->
+
+<!-- <parameter name="FullNmaeA" value="Sivajii"/>-->
+
+<parameter name="GendesendA" value="MALE"/>
+
+<parameter name="dateOfBirthA" value="18/09/1993"/>
+
+<parameter name="addressA" value="asd"/>
+
+<parameter name="countryPrimaryA" value="Malaysia"/>
+
+<parameter name="stateA" value="Kedah"/>
+
+<parameter name="CityA" value="Kulim"/>
+
+<parameter name="postA" value="5343453"/>
+
+<parameter name="CountryCodeA" value="+355"/>
+
+<parameter name="AreaA" value="Sample"/>
+
+<parameter name="mobileNumberA" value="1234567897"/>
+
+<parameter name="workcontactnoA" value="123-123333333"/>
+
+<parameter name="homecontactnoA" value="123-123333333"/>
+
+<parameter name="emailA" value="medcare@gaml.com"/>
+
+
+
+<!-- Prividing  PatientNameA same as updated for fullname above   -->
+
+<!-- <parameter name="PatientNameA" value="Sivajii"/>-->
+
+<parameter name="RemarksPar" value="Testing"/>
+	
+<test name="Test e2e BookNewAppointMent flow">	
+
+<classes>
+
+<class name="OPDTest.Cancel_new_appointment_against_Doctor">
+
+</class>
+
+</classes>
+
+</test>
+
+</suite>
+
